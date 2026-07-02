@@ -1,12 +1,10 @@
-####Code:
-
-
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "IQOO 9";
-const char* password = "123456780";
-String apiKey = "PSZW6VGEXH889Z0R";      // Paste ThingSpeak Write API key
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOUR_WIFI_PASSWORD";
+
+String apiKey = "YOUR_WRITE_API_KEY";
 const char* server = "http://api.thingspeak.com/update";
 
 void setup() {
