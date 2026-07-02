@@ -40,7 +40,4 @@ void loop() {
   delay(15000);  // must wait ≥15 s between uploads
 }
 
-
-
-
-Execution: Using MATLAB Think Speak website
+// Execution: Using MATLAB Think Speak website
